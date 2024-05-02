@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.todoList{
+    width: 30%;
+    background-color: aliceblue;
+    display: block;
+    border-radius: 10px;
+}
+.header{
+    width: 100%;
+    background-color: rgb(238, 214, 107);
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.list{
+    height: 28vmax;
+    padding: 0px 10px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding-top: 15px;
+    overflow:auto;
+}
+ul li{
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li input:hover{
+    cursor: pointer;
+}
+ul li p{
+    width: 70%;
+    margin-left: 10px;
+    
+}
+ul li a{
+    font-size: 12px;
+}
+
+ul li a:hover{
+    cursor: pointer;
+}
+
+.completed{
+    text-decoration: line-through;
+    background-color: rgb(214, 218, 223);
+}
+.completed a{
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(200, 228, 253);
+    border-top: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    padding:0px 20px;
+    height:9vmax;
+}
+
+.footer input{
+    height: 3vmax;
+    width: 70%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.footer button{
+    height:3.4vmax;
+    width:6vmax;
+    background-color: rgb(238, 214, 107);
+    border: 1px solid grey;
+    border-radius: 10px;
+}
